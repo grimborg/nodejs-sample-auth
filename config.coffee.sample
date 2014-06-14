@@ -1,0 +1,10 @@
+module.exports =
+    db:
+        url: 'mongodb://localhost:27017/sample_auth'
+    web:
+        port: 3000
+    auth:
+    	google:
+	        id: 'yourid.apps.googleusercontent.com'
+	        secret: 'yoursecret'
+	        callbackURL: 'http://localhost:3000/auth/google/callback'
